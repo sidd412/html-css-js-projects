@@ -1,4 +1,3 @@
-console.log("Welcome to Spotify");
 
 // Initialize the Variables
 let songIndex = 0;
@@ -8,6 +7,14 @@ let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
 let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
+
+
+/////////////////////////////// fetch song from api/////////////////////////////////////////////
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
 
 let songs = [
     {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
